@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.container-lg {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.time-block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.hour {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 0;
+  background-color: white;
+  border-radius: 5px 0 0 5px;
+}
+
+.description {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+  resize: none;
+}
+
+.saveBtn {
+  font-size: 20px;
+  padding: 8px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  background-color: purple;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.saveBtn:hover {
+  background-color: blue;
+}
+
+.past {
+  background-color: darkgray;
+}
+
+.present {
+  background-color: lightcoral;
+  color: white;
+}
+
+.future {
+  background-color: green;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.border-5 {
+  border-width: 5px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid darkgray;
+}
+
+.text-dark {
+  color: #343a40;
+}
+
+.display-3 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.time {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .container-lg {
+    padding-top: 50px;
+  }
+  .hour {
+    font-size: 20px;
+  }
+  .description {
+    padding: 14px;
+  }
+}
