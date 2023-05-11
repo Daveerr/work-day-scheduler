@@ -41,7 +41,7 @@ body {
   border: none;
   border-radius: 0 5px 5px 0;
   color: white;
-  background-color: purple;
+  background-color: lightskyblue;
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -55,7 +55,7 @@ body {
 
 .present {
   background-color: lightcoral;
-  color: white;
+  color: black;
 }
 
 .future {
