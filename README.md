@@ -26,3 +26,4 @@ A simple calender application for scheduling your work day.
 ## Getting Started
 
 - Click on website link to use
+  ![screenshot](work-dayscreen.png)
