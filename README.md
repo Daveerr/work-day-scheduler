@@ -26,4 +26,5 @@ A simple calender application for scheduling your work day.
 ## Getting Started
 
 - Click on website link to use
-  ![screenshot](work-dayscreen.png)
+- [
+](https://daveerr.github.io/work-day-scheduler/)  ![screenshot](work-dayscreen.png)
